@@ -1,0 +1,49 @@
+div.wrapper {
+	width: 80%;
+	margin: 20px auto 10px;
+}
+header {
+	background-color: #ccc;
+}
+section {
+	background-color: #999;
+	width: 60%;
+	float: left;
+	position: relative;
+}
+article {
+	background-color: #FF8F00;
+	width: 40%;
+	height: 150px;
+	float: left;
+	margin: 15px 5%;
+	padding: 20px;
+	border: 2px solid #000;
+	border-right: 4px dotted #c00;
+	border-color: #666;
+	border-width: 10px;
+	box-sizing: border-box;
+}
+article#floating {
+	background-color: #3CA836;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+article#sticky {
+	background-color: #3CA836;
+	position: fixed;
+	margin: 0;
+	bottom: 0;
+	right: 0;
+}
+aside {
+	background-color: #444;
+	width: 40%;
+	height: 360px;
+	float: left;
+}
+footer {
+	background-color: #111;
+	clear: both;
+}
